@@ -7,3 +7,12 @@ def reverse_each_word(sentence1)
   end
   return_array.join(" ")
 end
+def reverse_each_word(sentence2)
+  
+  array = sentence2.split(" ") 
+  test_array = []
+  array.collect do|string| 
+    test_array << sentence2.reverse 
+  end
+  test_array.join(" ")
+end
